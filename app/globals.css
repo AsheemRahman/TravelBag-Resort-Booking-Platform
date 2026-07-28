@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white text-ink font-body antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display text-forest;
+  }
+  ::selection {
+    @apply bg-clay/30 text-forest;
+  }
+  :focus-visible {
+    outline: 2px solid #4F9DC4;
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  /* Signature motif: topographic contour lines echoing the elevation of
+     Wayanad / Ooty / Munnar. Used as section dividers instead of a
+     generic wave or straight edge. */
+  .contour-divider {
+    position: relative;
+    width: 100%;
+    height: 64px;
+    overflow: hidden;
+    line-height: 0;
+  }
+  .contour-divider svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .eyebrow {
+    @apply font-mono text-xs tracking-[0.2em] uppercase text-emerald;
+  }
+
+  .section-pad {
+    @apply py-16 md:py-24;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

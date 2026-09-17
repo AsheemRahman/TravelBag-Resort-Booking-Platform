@@ -1,4 +1,4 @@
-export const TRAVELBAG_WHATSAPP_NUMBER = "918281366884";
+export const TRAVELBAG_WHATSAPP_NUMBER = "918075389443";
 
 type WhatsAppIntent =
   | { type: "general" }

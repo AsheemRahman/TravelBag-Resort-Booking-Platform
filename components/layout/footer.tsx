@@ -53,7 +53,8 @@ export function Footer() {
         <div>
           <p className="eyebrow text-white/60">Get in touch</p>
           <ul className="mt-4 space-y-3 text-sm text-white/80">
-            <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-emerald-light" /> +91 8281366884</li>
+            <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-emerald-light" /> +91 80753 89443</li>
+            <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-emerald-light" /> +91 86067 68884</li>
             <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-emerald-light" /> travelbag.travellingcouple@gmail.com</li>
             <li className="flex items-start gap-2"><MapPin className="mt-0.5 h-4 w-4 shrink-0 text-emerald-light" /> Kalpetta, Wayanad, Kerala 673121</li>
           </ul>

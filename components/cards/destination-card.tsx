@@ -7,10 +7,7 @@ import { Card } from "@/components/ui/card";
 export function DestinationCard({ destination, index = 0 }: { destination: Destination; index?: number }) {
   return (
     <Link href={`/destinations/${destination.slug}`}>
-      <Card
-        className="group relative h-[420px] overflow-hidden opacity-0 animate-fade-up"
-        style={{ animationDelay: `${index * 100}ms` }}
-      >
+      <Card className="group relative h-[420px] overflow-hidden opacity-0 animate-fade-up" style={{ animationDelay: `${index * 100}ms` }}>
         <Image
           src={destination.heroImage}
           alt={destination.name}

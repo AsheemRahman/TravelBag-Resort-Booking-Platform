@@ -21,7 +21,7 @@ export const destinations: Destination[] = [
     tagline: "Misty forests, spice-scented hills, and the wild heart of the Western Ghats",
     elevationMeters: 2100,
     heroImage:
-      "https://images.unsplash.com/photo-1587922546307-776227941871?q=80&w=2000&auto=format&fit=crop",
+      "/images/Destinations-Wayanad.webp",
     gallery: [
       "https://images.unsplash.com/photo-1587922546307-776227941871?q=80&w=1600&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1590682680695-43b964a3ae17?q=80&w=1600&auto=format&fit=crop",
@@ -53,7 +53,7 @@ export const destinations: Destination[] = [
     tagline: "The Queen of Hill Stations — colonial charm above a sea of tea gardens",
     elevationMeters: 2240,
     heroImage:
-      "https://images.unsplash.com/photo-1571401835393-8c5f35328320?q=80&w=2000&auto=format&fit=crop",
+      "/images/Destinations-Ooty.webp",
     gallery: [
       "https://images.unsplash.com/photo-1571401835393-8c5f35328320?q=80&w=1600&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1544969813-1195c2c99f4a?q=80&w=1600&auto=format&fit=crop",
@@ -85,7 +85,7 @@ export const destinations: Destination[] = [
     tagline: "Endless tea-carpeted hills where the clouds settle in for the afternoon",
     elevationMeters: 1600,
     heroImage:
-      "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=2000&auto=format&fit=crop",
+      "/images/Destinations-Munnar.webp",
     gallery: [
       "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=1600&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1590682680695-43b964a3ae17?q=80&w=1600&auto=format&fit=crop",

@@ -83,17 +83,36 @@ export function Navbar() {
           >
             About
           </Link>
+          <Link
+            href="/contact"
+            onMouseEnter={() => setMegaMenu(null)}
+            className={cn(
+              "rounded-full px-4 py-2 text-sm font-semibold transition-colors",
+              scrolled ? "text-ink hover:bg-mist" : "text-white hover:bg-white/10"
+            )}
+          >
+            Contact
+          </Link>
         </nav>
 
-        <div className="hidden items-center gap-3 lg:flex">
+        <div className="hidden items-center gap-5 lg:flex">
           <a
-            href="tel:+918281366884"
+            href="tel:+918075389443"
             className={cn(
               "flex items-center gap-2 text-sm font-semibold",
               scrolled ? "text-forest" : "text-white"
             )}
           >
-            <Phone className="h-4 w-4" /> +91 82813 66884
+            <Phone className="h-4 w-4" /> +91 80753 89443
+          </a>
+          <a
+            href="tel:+918606768884"
+            className={cn(
+              "flex items-center gap-2 text-sm font-semibold",
+              scrolled ? "text-forest" : "text-white"
+            )}
+          >
+            <Phone className="h-4 w-4" /> +91 86067 68884
           </a>
           <Link href="/contact">
             <Button size="sm">Plan My Trip</Button>
@@ -149,8 +168,11 @@ export function Navbar() {
             <Link href="/gallery" className="rounded-lg px-3 py-2.5 text-sm font-semibold text-ink hover:bg-mist" onClick={() => setMobileOpen(false)}>Gallery</Link>
             <Link href="/about" className="rounded-lg px-3 py-2.5 text-sm font-semibold text-ink hover:bg-mist" onClick={() => setMobileOpen(false)}>About</Link>
             <Link href="/contact" className="rounded-lg px-3 py-2.5 text-sm font-semibold text-ink hover:bg-mist" onClick={() => setMobileOpen(false)}>Contact</Link>
-            <a href="tel:+918281366884" className="mt-2 flex items-center gap-2 rounded-lg bg-mist px-3 py-2.5 text-sm font-semibold text-forest">
-              <Phone className="h-4 w-4" /> +91 82813 66884
+            <a href="tel:+918075389443" className="mt-2 flex items-center gap-2 rounded-lg bg-mist px-3 py-2.5 text-sm font-semibold text-forest">
+              <Phone className="h-4 w-4" /> +91 80753 89443
+            </a>
+            <a href="tel:+918606768884" className="mt-2 flex items-center gap-2 rounded-lg bg-mist px-3 py-2.5 text-sm font-semibold text-forest">
+              <Phone className="h-4 w-4" /> +91 86067 68884
             </a>
           </div>
         </div>

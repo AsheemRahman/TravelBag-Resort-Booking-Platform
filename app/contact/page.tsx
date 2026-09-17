@@ -37,7 +37,11 @@ export default function ContactPage() {
               <ul className="mt-4 space-y-4 text-sm">
                 <li className="flex items-center gap-3">
                   <span className="flex h-9 w-9 items-center justify-center rounded-full bg-mist"><Phone className="h-4 w-4 text-emerald" /></span>
-                  <a href="tel:+918281366884" className="text-ink/80 hover:text-forest">+91 99999 99999</a>
+                  <a href="tel:+918075389443" className="text-ink/80 hover:text-forest">+91 80753 89443</a>
+                </li>
+                <li className="flex items-center gap-3">
+                  <span className="flex h-9 w-9 items-center justify-center rounded-full bg-mist"><Phone className="h-4 w-4 text-emerald" /></span>
+                  <a href="tel:+918606768884" className="text-ink/80 hover:text-forest">+91 86067 68884</a>
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="flex h-9 w-9 items-center justify-center rounded-full bg-mist"><Mail className="h-4 w-4 text-emerald" /></span>

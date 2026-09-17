@@ -34,7 +34,7 @@ export const packages: TourPackage[] = [
       "https://images.unsplash.com/photo-1587922546307-776227941871?q=80&w=1600&auto=format&fit=crop",
     gallery: [
       "https://images.unsplash.com/photo-1590682680695-43b964a3ae17?q=80&w=1600&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1580889240911-e024ee7e6fcc?q=80&w=1600&auto=format&fit=crop",
+      // "https://images.unsplash.com/photo-1580889240911-e024ee7e6fcc?q=80&w=1600&auto=format&fit=crop",
     ],
     highlights: ["Chembra Peak trek", "Wildlife safari", "Spice plantation walk", "Edakkal Caves"],
     placesCovered: ["Vythiri", "Chembra", "Muthanga", "Edakkal"],
@@ -59,8 +59,8 @@ export const packages: TourPackage[] = [
     heroImage:
       "https://images.unsplash.com/photo-1571401835393-8c5f35328320?q=80&w=1600&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1544969813-1195c2c99f4a?q=80&w=1600&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1602208101804-3ab8d3fb6bd6?q=80&w=1600&auto=format&fit=crop",
+      // "https://images.unsplash.com/photo-1544969813-1195c2c99f4a?q=80&w=1600&auto=format&fit=crop",
+      // "https://images.unsplash.com/photo-1602208101804-3ab8d3fb6bd6?q=80&w=1600&auto=format&fit=crop",
     ],
     highlights: ["Nilgiri toy train ride", "Tea factory visit", "Doddabetta sunset", "Botanical Gardens"],
     placesCovered: ["Ooty town", "Coonoor", "Doddabetta", "Pykara"],
@@ -85,7 +85,7 @@ export const packages: TourPackage[] = [
       "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=1600&auto=format&fit=crop",
     gallery: [
       "https://images.unsplash.com/photo-1590682680695-43b964a3ae17?q=80&w=1600&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1622540031975-2eea9cc4e2d0?q=80&w=1600&auto=format&fit=crop",
+      // "https://images.unsplash.com/photo-1622540031975-2eea9cc4e2d0?q=80&w=1600&auto=format&fit=crop",
     ],
     highlights: ["Eravikulam National Park", "Kolukkumalai tea estate", "Top Station panorama", "Mattupetty Dam"],
     placesCovered: ["Munnar town", "Eravikulam", "Top Station", "Chinnakanal"],

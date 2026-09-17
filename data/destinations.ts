@@ -25,7 +25,7 @@ export const destinations: Destination[] = [
     gallery: [
       "https://images.unsplash.com/photo-1587922546307-776227941871?q=80&w=1600&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1590682680695-43b964a3ae17?q=80&w=1600&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1580889240911-e024ee7e6fcc?q=80&w=1600&auto=format&fit=crop",
+      // "https://images.unsplash.com/photo-1580889240911-e024ee7e6fcc?q=80&w=1600&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=1600&auto=format&fit=crop",
     ],
     overview:
@@ -56,9 +56,7 @@ export const destinations: Destination[] = [
       "/images/Destinations-Ooty.webp",
     gallery: [
       "https://images.unsplash.com/photo-1571401835393-8c5f35328320?q=80&w=1600&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544969813-1195c2c99f4a?q=80&w=1600&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1602208101804-3ab8d3fb6bd6?q=80&w=1600&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1622540031975-2eea9cc4e2d0?q=80&w=1600&auto=format&fit=crop",
+      // "https://images.unsplash.com/photo-1571401835396-8c5f35328320?q=80&w=1600&auto=format&fit=crop",
     ],
     overview:
       "Perched in the Nilgiris, Ooty has been drawing hill-country travelers since the days of the British Raj. Rolling tea estates, a toy train that hairpins up the mountainside, and a climate that stays cool year-round make it one of South India's most enduring retreats.",
@@ -90,7 +88,7 @@ export const destinations: Destination[] = [
       "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=1600&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1590682680695-43b964a3ae17?q=80&w=1600&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1587922546307-776227941871?q=80&w=1600&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1622540031975-2eea9cc4e2d0?q=80&w=1600&auto=format&fit=crop",
+      // "https://images.unsplash.com/photo-1622540031975-2eea9cc4e2d0?q=80&w=1600&auto=format&fit=crop",
     ],
     overview:
       "Munnar is three valleys of tea — Nallathanni, Mudupatti, and Kannan Devan — stitched together by switchback roads and cool, thin air. Once a British summer retreat, it's now Kerala's signature hill escape, best known for its impossibly manicured tea estates and the rare Neelakurinji bloom.",

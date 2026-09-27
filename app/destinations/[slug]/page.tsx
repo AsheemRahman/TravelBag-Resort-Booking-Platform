@@ -156,7 +156,7 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
       )}
 
       {/* Popular packages */}
-      {destinationPackages.length > 0 && (
+      {/* {destinationPackages.length > 0 && (
         <section className="section-pad bg-mist">
           <div className="container">
             <p className="eyebrow">Fully planned</p>
@@ -168,7 +168,7 @@ export default async function DestinationPage({ params }: { params: Promise<{ sl
             </div>
           </div>
         </section>
-      )}
+      )} */}
 
       {/* Gallery */}
       <section className="section-pad bg-white">

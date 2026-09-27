@@ -164,7 +164,7 @@ export function Navbar() {
           <div className="container flex flex-col gap-1 py-4">
             <Link href="/destinations" className="rounded-lg px-3 py-2.5 text-sm font-semibold text-ink hover:bg-mist" onClick={() => setMobileOpen(false)}>Destinations</Link>
             <Link href="/stays" className="rounded-lg px-3 py-2.5 text-sm font-semibold text-ink hover:bg-mist" onClick={() => setMobileOpen(false)}>Stays</Link>
-            <Link href="/packages" className="rounded-lg px-3 py-2.5 text-sm font-semibold text-ink hover:bg-mist" onClick={() => setMobileOpen(false)}>Packages</Link>
+            {/* <Link href="/packages" className="rounded-lg px-3 py-2.5 text-sm font-semibold text-ink hover:bg-mist" onClick={() => setMobileOpen(false)}>Packages</Link> */}
             <Link href="/gallery" className="rounded-lg px-3 py-2.5 text-sm font-semibold text-ink hover:bg-mist" onClick={() => setMobileOpen(false)}>Gallery</Link>
             <Link href="/about" className="rounded-lg px-3 py-2.5 text-sm font-semibold text-ink hover:bg-mist" onClick={() => setMobileOpen(false)}>About</Link>
             <Link href="/contact" className="rounded-lg px-3 py-2.5 text-sm font-semibold text-ink hover:bg-mist" onClick={() => setMobileOpen(false)}>Contact</Link>

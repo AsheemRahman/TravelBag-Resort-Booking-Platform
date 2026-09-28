@@ -20,9 +20,9 @@ export function Hero() {
             Hand-picked pool villas, resorts, and homestays across the Western Ghats — planned by people who know every trail, tea garden, and back road.
           </p>
         </div>
-        <div className="max-w-2xl mt-10 lg:mt-0 lg:ml-10">
+        {/* <div className="max-w-2xl mt-10 lg:mt-0 lg:ml-10">
           <HeroInquiryCard />
-        </div>
+        </div> */}
       </div>
 
 
